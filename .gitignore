@@ -1,6 +1,8 @@
-# Adding config.py file.
+# Hide stuff that shouldn't be uploaded to github repo
+config.py
 wikipedia-movies.json
 kaggle/*
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
