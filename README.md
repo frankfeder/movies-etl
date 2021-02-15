@@ -1,4 +1,4 @@
-# ETL: Movie Data on Wikipedia, Kaggle 
+# ETL: Movie Data from Wikipedia, Kaggle 
 This repo contains several iPython notebooks that were created as pieces of an ETL pipeline that pulls movie data from .csv files, transforms them to remove unnecessary or redundant columns as well as make the data more usable, and then upload the data to a postgreSQL server hosted on the local machine.
 
 I have not included the source data in this repo, as it is quite large - please send me a direct message if you'd like a copy of the raw datasets. If you'd like to run these notebooks on your local machine, you'll need to add the following:
@@ -7,7 +7,7 @@ I have not included the source data in this repo, as it is quite large - please 
 * **ratings.csv**  within a folder called "kaggle" located in the working directory
 * **config.py** in the working directory with a value for "db_password" (your postgreSQL server password)
 
-The order I created these notebooks in is as follows:
+I created these notebooks in the following order:
 1. **Movies_Testing.ipynb** initial EDA, granular testing of all ETL steps
 2. **ETL_function_test.ipynb** skeleton of automated ETL pipeline via master function, set up initial dataframes
 3. **ETL_clean_wiki_movies.ipynb** adding wikipedia data transformations to master function
