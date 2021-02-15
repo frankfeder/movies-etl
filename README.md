@@ -14,7 +14,8 @@ I created these notebooks in the following order:
 4. **ETL_clean_kaggle_data.ipynb** adding kaggle data transformations to master function
 5. **ETL_create_database.ipynb** using the master function created in previous iterations, transform all data and upload to local postgreSQL server
 
-If you're here to get insight on the initial EDA process for an ETL, I'd suggest looking at [Movies_Testing.ipynb](./Movies_Testing.ipynb) as its broken into smaller code chunks for iterative testing.
+If you're here to get insight on the initial EDA process for an ETL, I'd suggest looking at [Movies_Testing.ipynb](./Movies_Testing.ipynb) as it is broken into smaller code chunks for iterative testing.
+
 If you're here to admire a fully-functional ETL pipeline, I'd suggest skipping to [ETL_create_database.ipynb](./ETL_create_database.ipynb) as it is the most complete and concise version of the code contained in the other notebooks.
 
 Screenshots of SQL queries confirming the movies and ratings tables were created successfully:
