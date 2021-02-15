@@ -21,6 +21,7 @@ Screenshots of SQL queries confirming the movies and ratings tables were created
 
 ![](./Resources/movies_query.png)
 
+
 ![](./Resources/ratings_query.png)
 
 Frank Feder, 2021
